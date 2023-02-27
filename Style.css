@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: burlywood;
+}
+section
+{
+    background-color: burlywood;
+}
+footer
+{
+    background-color: rgb(187, 115, 64);
+}   
+#avatar
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+input::placeholder
+{
+    color:black
+}
+textarea::placeholder
+{
+    color:black
+}
+#header_div
+{
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+#main_div
+{
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+#objective_header
+{
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.objective_text
+{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.experience_wrapper
+{
+    display: flex;
+}
+.experience_div
+{
+    justify-content: space-between;
+}
+.experience_text
+{
+    padding-left: 150px;
+}
+#skills_header
+{
+    padding: 10px;
+}
+#skills_text
+{
+    padding-left: 35px;
+}
+#language_header
+{
+    padding: 10px;
+}
+#language_list
+{
+    padding-left: 25px;
+}
